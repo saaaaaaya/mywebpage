@@ -1,0 +1,71 @@
+body{
+    font-family: "Courier", monospace;
+}
+
+.jumbotron-extend{
+    background: linear-gradient(-45deg, rgba(85, 124, 255, 0.3), rgba(255, 0, 161, 0.3)), url(couple.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    font-weight: bold;
+}
+
+.jumbotron .container{
+    margin-top: 30vh;
+}
+
+.row {
+    color: #778899;
+}
+
+.caption h2 {
+    font-weight: bold;
+    color: #778899;
+    font-size: 40px;
+    
+}
+
+.text h2{
+    position: relative;
+    background: #dfefff;
+    box-shadow: 0px 0px 0px 5px #dfefff;
+    border: dashed 2px white;
+    padding: 0.2em 0.5em;
+    color: #778899;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.text h2:after{
+    position: absolute;
+    content: '';
+    left: -7px;
+    top: -7px;
+    border-width: 0 0 15px 15px;
+    border-style: solid;
+    border-color: #fff #fff #a8d4ff;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+}
+
+.row ul {
+    list-style-type: none;
+    margin-left: auto;
+    margin-right: auto;
+    color: #708090;
+    font-size: 27px;
+    padding-left: 15px;
+}
+
+.row ul span {
+    font-size: 20px;
+    line-height: 2;
+    border-bottom: dotted 3px #87cefa;
+    /*background: linear-gradient(transparent 70%, #87cefa 70%);*/
+}
+
+.jumbotron-list {
+    margin-top: 10vh;
+}
